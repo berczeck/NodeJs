@@ -8,7 +8,11 @@ app.get("/",function(req,res){
 	res.send("Hello World!!! With Node Js",200);
 });
 
-app.get("/Alexander",function(req,res){
+app.get("/luis",function(req,res){
+	res.send("Hello World!!! With Node Js Luis",200);
+});
+
+app.get("/alexander",function(req,res){
 	res.send("Probando mi primer get",200);
 });
 
