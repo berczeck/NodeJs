@@ -8,6 +8,10 @@ app.get("/",function(req,res){
 	res.send("Hello World!!! With Node Js",200);
 });
 
+app.get("/Alexander",function(req,res){
+	res.send("Probando mi primer get",200);
+});
+
 app.listen(8090);
 
 console.log("Express server started on port 8080")
