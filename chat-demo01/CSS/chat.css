@@ -5,7 +5,8 @@ footer h3 strong{display:block}
 form{padding:.8em;}
 form label{display:inline-block;width:60px}
 header{background:#4d9700;color:#7ff F;padding:.5em;position:relative;z-index:2;overflow:hidden;}
-header .logo{border-left:3px solid #0000eb;float:right;width:150px;}
-header .logo img{width:150px}
+header .logo{float:right;width:150px;}
+header .logo img{width:150px;border-radius:50%}
 header .titular{margin:0 80px 0 70px}
 header .titulo{font-size:1.1em;font-weight:normal;margin:0;padding:0}
+.posts{padding:.5em}
