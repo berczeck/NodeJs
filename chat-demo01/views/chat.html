@@ -1,10 +1,42 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Chat</title>
+	<meta name="viewport" content ="width=device-width,initial-scale=1,maximun-scale=1"/>
+	<title>Chat para entudiastas</title>
+	<link rel="stylesheet" href="../Css/normalize.css" />
+	<link rel="stylesheet" href="../CSS/chat.css">
 </head>
 <body>
-	{{mensaje}}
+	<header>
+		<div class="logo">
+			<img src="../Imagenes/Logo.jpeg" alt="OsakaChat"/>
+		</div>
+		<div class="titular">
+			<h1 class="titulo">
+				OsakaChat: Mensajeria instantea para entusiastas
+			</h1>
+		</div>
+	</header>
+	<section class="posts">
+	<p>
+		<textarea name="Monitor" id="monitor" cols="30" rows="10">
+			
+		</textarea>
+	</p>
+	<form action="">
+		<label>Ingrese texto</label>
+		<input type="text" name="conversacion" id="conversacion">
+		<input type="submit" placeholder="Ingrese texto" id="chat">
+	</form>
+	</section>
+	<footer>
+		<h3>
+			<strong>Repotenciado con HTML5</strong>
+			<span class="mejor">
+				OsakaChat 2014
+			</span>
+		</h3>
+	</footer>
 </body>
 </html>
